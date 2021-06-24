@@ -1,0 +1,10 @@
+server:
+  port: 9051
+spring:
+  application:
+    name: consumer
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7051/eureka/,http://localhost:7052/eureka/,http://localhost:7053/eureka/

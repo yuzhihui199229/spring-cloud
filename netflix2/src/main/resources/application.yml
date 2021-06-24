@@ -1,0 +1,12 @@
+server:
+  port: 7052
+eureka:
+  instance:
+    hostname: netflix2
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://localhost:7051/eureka/,http://localhost:7053/eureka/
+    register-with-eureka: false
+    fetch-registry: false

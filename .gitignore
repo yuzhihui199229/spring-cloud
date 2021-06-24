@@ -1,0 +1,7 @@
+# Project exclude paths
+/consumer/target/
+/netflix/target/
+/netflix2/target/
+/netflix3/target/
+/provider1/target/
+/provider2/target/

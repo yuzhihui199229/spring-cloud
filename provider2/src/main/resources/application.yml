@@ -1,0 +1,11 @@
+server:
+  port: 8052
+spring:
+  application:
+    name: provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7051/eureka/,http://localhost:7052/eureka/,http://localhost:7053/eureka/
+  instance:
+    instance-id: provider2-8052
